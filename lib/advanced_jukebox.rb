@@ -1,17 +1,17 @@
+require 'pry'
 #Here is the song hash you will be working with. Each key is a song name and each value is the location of it's mp3 file.
-#make sure to edit the value of each key to replace < path to this directory >
+#make sure to edit the value of each key to replace #/Users/andreac/.atom/.learn-ide/home/andreancardona/  jukebox-cli-web-121117
 #with the correct path to this directory on your computer
 
-# my_songs = {
-# "Go Go GO" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
-# }
-require 'pry'
+ my_songs = {
+ "Go Go GO" => '/Users/andreac/.atom/.learn-ide/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/01.mp3',
+ "LiberTeens" => '/Users/andreac/.atom/.learn-ide/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/02.mp3',
+ "Hamburg" =>  '/Users/andreac/.atom/.learn-ide/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/03.mp3',
+ "Guiding Light" => '/Users/andreac/.atom/.learn-ide/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/04.mp3',
+ "Wolf" => '/Users/andreac/.atom/.learn-ide/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/05.mp3',
+ "Blue" => '/Users/andreac/.atom/.learn-ide/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/06.mp3',
+ "Graduation Failed" => '/Users/andreac/.atom/.learn-ide/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/07.mp3'
+ }
 
 def help
   #this method should be the same as in jukebox.rb
