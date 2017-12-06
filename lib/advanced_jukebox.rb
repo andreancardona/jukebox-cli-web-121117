@@ -4,13 +4,13 @@ require 'pry'
 #with the correct path to this directory on your computer
 
  my_songs = {
- "Go Go GO" => '/Users/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/01.mp3',
- "LiberTeens" => '/Users/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/02.mp3',
- "Hamburg" =>  '/Users/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/03.mp3',
- "Guiding Light" => '/Users/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/04.mp3',
- "Wolf" => '/Users/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/05.mp3',
- "Blue" => '/Users/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/06.mp3',
- "Graduation Failed" => '/Users/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/07.mp3'
+ "Go Go GO" => '/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/01.mp3',
+ "LiberTeens" => '/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/02.mp3',
+ "Hamburg" =>  '/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/03.mp3',
+ "Guiding Light" => '/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/04.mp3',
+ "Wolf" => '/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/05.mp3',
+ "Blue" => '/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/06.mp3',
+ "Graduation Failed" => '/home/andreancardona/jukebox-cli-web-121117/audio/Emerald-Park/07.mp3'
  }
 
 def help
