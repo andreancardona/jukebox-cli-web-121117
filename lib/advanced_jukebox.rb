@@ -1,6 +1,6 @@
 
 #Here is the song hash you will be working with. Each key is a song name and each value is the location of it's mp3 file.
-#make sure to edit the value of each key to replace #/Users/andreac/.atom/.learn-ide/home/andreancardona/  jukebox-cli-web-121117
+#make sure to edit the value of each key to replace #/home/andreancardona/jukebox-cli-web-121117/
 #with the correct path to this directory on your computer
 
  my_songs = {
