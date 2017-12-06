@@ -1,11 +1,4 @@
-def say_hello(users_name)
-  "Hi #{name}!"
-end
 
-puts "Andrea:"
-users_name = gets.chomp
-
-puts say_hello(users_name)
 
 songs = [
   "Phoenix - 1901",
